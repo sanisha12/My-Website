@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanisha Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62447cd059.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo-removebg-preview.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!--<li><a href="#projects">Projects</a></li>--->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>           
+        </nav>
+    </div>
+    <div class="header-text">
+        <h1>Hi, I'm <span>Sanisha Peruvakunnel Stephen</span></h1>
+        <p>Computer Science Graduate<br>Master's student in Automotive Embedded Systems</p>
+    </div>
+</div> 
+
+<!------------------------About-------------------------------------------->
+
+<div id="about" >
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="image/myimage.jpg">
+        </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm a passionate Computer Science Engineering graduate, currently pursuing a master’s degree in Automotive Embedded Systems. Born on October 4, 2000, in India, I have always been fascinated by the world of technology and innovation. My academic journey has taken me from my homeland to the beautiful landscapes of France, where I am immersing myself in advanced studies.
+
+                    With a solid foundation in computer science and a keen interest in the rapidly evolving automotive industry, I am dedicated to contributing to the future of intelligent transportation systems. My experiences have not only enriched my technical skills but also broadened my cultural perspective, allowing me to adapt and thrive in diverse environments.
+                    
+                    I am enthusiastic about leveraging my knowledge and skills to develop innovative solutions that bridge the gap between technology and everyday life. Whether it’s through collaborative projects or individual research, I am always eager to learn, grow, and make a meaningful impact in the field of automotive embedded systems.
+                    
+                    Thank you for visiting my portfolio. I look forward to connecting with like-minded individuals and exploring opportunities to create a smarter, more connected world. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('courselearnt')">Courses Learnt</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>JAVA</li>
+                            <li>C Programming</li>
+                            <li>Python Programming</li>
+                            <li>HTML/CSS/Jframe</li>
+                            <li>MYSQL</li>
+                            <li>Embedded Linux</li>
+                            <li>Embedded C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master of Science(2023 - Currnet)</span><br>ESIGELEC(École Supérieure d'Ingénieurs en Génie Électrique)<br>Specialised in Automotive Embedded Systems<br>Rouen, France</li>
+                            <li><span>Bachelor of Engineering(2019-2023)</span><br>VTU(Visvesvaraya Technological University)<br>Specialised in Computer Science and Engineering<br>Karnataka, India</li>
+                            <li><span>Pre-University Education(2017-2019)</span><br>St. Norbert Pre University College<br>Karnataka, India</li>
+                            <li><span>Higher Secondary Schooling(2007-2017)</span><br>St. Norbert C.B.S.E School<br>Karnataka, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="courselearnt">
+                        <ul>
+                            <li><span>Master of Science(2023 - Currnet)</span><br> ADAS <br> Artificial Intelligence <br>Research and development <br>Communication Buses(CAN,LIN,FLEXRAY,ETHERNET)<br>RTOS <br> Robotics and Localization <br>Functional  Safety <br> IoT <br>Embedded Linux <br>Embedded C <br>Computer Vision <br>French. </li>
+                            <li><span>Bachelor of Engineering(2019-2023)</span><br>Data Structure <br>Object Oriented Programming <br> C programming <br>Python<br> JAVA <br>Operating system(UNIX and LINUX) <br>Machine Learning <br>DBMS <br> Cryptography <br> Computer Graphics <br> Microcontroller and Embedded Systems<br> Software engineering <br>User interface design</li>
+                        </ul>
+                    </div>
+                    
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------Projects---------------------------------------------
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>WIFI BOT AUTONOMOUS ROBOT</h2>
+                <p>In this project, we are developing a WIFI Bot autonomous robot for object detection, tracking, and autonomous driving using YOLOv3 and Deep SORT algorithms, as part of a semester project at ESIGELEC. A Raspberry Pi is utilized as the central processing unit, enabling efficient execution of the algorithms and seamless communication with the robot's hardware components.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>DJI ROBOMASTER</h2>
+                <p>This project involves developing an advanced system for person tracking and object detection using the Robomaster EP Core robot and YOLOv8. As part of my second semester course project for my Master's program, I undertook this project to explore the integration of robotics and computer vision. The project was divided into three main objectives: moving the robot from point A to point B, detecting and avoiding objects, and tracking a person.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h2>ALCOHOL DETECTION AND MOTOR LOCKING</h2>
+                <p>This project seamlessly integrates sophisticated alcohol detection using sensor technology with motor locking mechanisms, significantly mitigating the dangers of drunk driving. Utilizing GSM technology, the system promptly alerts designated guardians with the vehicle's location upon alcohol detection, enabling swift intervention</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>SMART ENERGY METER</h2>
+                <p>I spearheaded the development of a Smart Energy Meter add-on module using ESP8266 and current sensor, enhancing energy consumption transparency and facilitating bill management. This innovative solution includes theft detection capabilities, ensuring integrity in energy usage. Accessible via a iot open platform website, users can conveniently monitor their energy usage and track billing details in real-time, empowering them with greater control over their electricity consumption.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <h2>HOSTEL MANAGEMENT SYSTEMS </h2>
+                <p>I Developed a hostel management system application using Java Swing (JFrame) for the front-end and MySQL for the back-end database. Designed and implemented features including room allocation, student registration, and billing management, employee management ,ensuring efficient hostel operations.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>-------->
+<!---------------------------------------------------portfolio---------->
+<div id="projects">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="image/wifibot_resized.jpeg">
+            <div class="layer">
+               <h3>WIFI BOT AUTONOMOUS ROBOT</h3>
+               <P>It is robot for object detection, tracking, and autonomous driving using YOLOv3 and Deep SORT algorithms.</P> 
+               <a href="https://github.com/sanisha12/WIFIBOT-AUTONOMOUS-ROBOT"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/robomaster_resized.webp">
+            <div class="layer">
+            <h3>DJI ROBOMASTER</h3>
+                <p>It is a advanced system for person tracking and object detection using the Robomaster EP Core robot and YOLOv8.</p>
+                <a href="https://github.com/sanisha12/DJI-Robomaster"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/alcohol.jpg">
+            <div class="layer">
+            <h3>ALCOHOL DETECTION AND MOTOR LOCKING</h3>
+                <p>This project seamlessly integrates sophisticated alcohol detection using sensor technology with motor locking mechanisms, significantly mitigating the dangers of drunk driving.</p>
+                <a href="https://github.com/sanisha12/Alcohol-Detection-And-Motor-Locking"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/smart energy meter_resized.jpeg">
+            <div class="layer">
+            <h3>SMART ENERGY METER</h3>
+                <p>Smart Energy Meter ,a add-on module for monitoring and detecting current, enhancing energy consumption transparency and facilitating bill management. </p>
+                <a href="https://github.com/sanisha12/Smart-Energy-Meter"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/hostel.jpg">
+            <div class="layer">
+            <h3>HOSTEL MANAGEMENT SYSTEMS </h3>
+                <p>Hostel management system application using Java Swing (JFrame) for the front-end and MySQL for the back-end database.</p>
+                <a href="https://github.com/sanisha12/Hostel-Management-System"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+<!---<a href="#" class="btn">See more</a>---------->
+    </div>
+</div>
+
+<!---------------------------------------------------------Contacts------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1> 
+               <p><i class="fa-solid fa-envelope"></i>sanishastephen892@gmail.com</p>
+               <!--<p><i class="fa-solid fa-phone"></i>+330775779206</p>-->
+               <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sanisha"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sanisha12/"><i class="fa-brands fa-github"></i></a>
+               </div>
+               <a href="image/Sanisha_CV_PS.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>  
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sanisha </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbybt0nVM77jxPNaz3Tj_dLnDyJGhSRlVE-SKeGGEpKJnFlEqDXdCTfZJxI2qlxUi8tZ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+</body>
+</html>
